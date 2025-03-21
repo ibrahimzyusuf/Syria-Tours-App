@@ -6,7 +6,7 @@ import palmyra from "../assets/images/palmyra2.jpg"
 import flag from '../assets/images/flag.png' 
 import herovideo from '../assets/images/hero_video.mp4'
 import experience from '../assets/images/experience.png'
-import Subtitle from '../shared/subtitle';
+import Subtitle from '../shared/Subtitle';
 import Counters from '../components/Counters/Counters'
 import SearchBar from '../shared/SearchBar';
 import ServiceList from '../services/ServiceList';
