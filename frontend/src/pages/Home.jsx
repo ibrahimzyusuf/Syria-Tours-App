@@ -1,11 +1,11 @@
 import React,{useEffect} from 'react';
 import '../styles/home.css'
 import { Container, Row, Col } from 'reactstrap';
-import aleppocitadel from "../assets/images/aleppocitadel1.jpg"
-import palmyra from "../assets/images/palmyra2.jpg"
-import flag from '../assets/images/flag.png' 
-import herovideo from '../assets/images/hero_video.mp4'
-import experience from '../assets/images/experience.png'
+import aleppocitadel from "/images/aleppocitadel1.jpg"
+import palmyra from "/images/palmyra2.jpg"
+import flag from '/images/flag.png' 
+import herovideo from '/images/hero_video.mp4'
+import experience from '/images/experience.png'
 import Subtitle from '../shared/Subtitle';
 import Counters from '../components/Counters/Counters'
 import SearchBar from '../shared/SearchBar';

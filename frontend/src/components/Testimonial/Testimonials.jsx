@@ -1,10 +1,10 @@
 import React from "react";
 import Slider from "react-slick";
 import './testimonials.css'
-import p1 from '../../assets/images/p1.jpg'
-import p2 from '../../assets/images/p2.jpg'
-import p3 from '../../assets/images/p3.jpg'
-import p4 from '../../assets/images/girl.jpg'
+import p1 from '/images/p1.jpg'
+import p2 from '/images/p2.jpg'
+import p3 from '/images/p3.jpg'
+import p4 from '/images/girl.jpg'
 
 const Testimonials = () => {
 

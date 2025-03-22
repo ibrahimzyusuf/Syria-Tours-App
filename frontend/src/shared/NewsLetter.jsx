@@ -1,7 +1,7 @@
 import React from 'react'
 import './newsLetter.css'
 import { Container, Row , Col } from 'reactstrap'
-import aleepoman from '../assets/images/aleepoman.jpg'
+import aleepoman from '/images/aleepoman.jpg'
 
 const NewsLetter = () => {
     return (

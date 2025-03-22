@@ -1,9 +1,9 @@
-import galleryImg01 from '../../assets/images/aldawayat2.jpg'
-import galleryImg02 from '../../assets/images/alforolloque1.jpg'
-import galleryImg03 from '../../assets/images/arwad2.jpg'
-import galleryImg04 from '../../assets/images/blodan1.jpg'
-import galleryImg05 from '../../assets/images/bosra1.jpg'
-import galleryImg06 from '../../assets/images/maalola1.jpg'
+import galleryImg01 from '/images/aldawayat2.jpg'
+import galleryImg02 from '/images/alforolloque1.jpg'
+import galleryImg03 from '/images/arwad2.jpg'
+import galleryImg04 from '/images/blodan1.jpg'
+import galleryImg05 from '/images/bosra1.jpg'
+import galleryImg06 from '/images/maalola1.jpg'
 
 
 const galleryImages = [

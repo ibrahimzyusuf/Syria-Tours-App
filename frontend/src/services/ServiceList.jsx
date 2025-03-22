@@ -1,9 +1,9 @@
 import React from 'react'
 import ServiceCard from './ServiceCard'
 import { Col } from "reactstrap"
-import guidmeimage from '../assets/images/guidmeimage.png'
-import bestguidimage from '../assets/images/bestguidimage.jpg'
-import informationimage from '../assets/images/informationimage.png'
+import guidmeimage from '/images/guidmeimage.png'
+import bestguidimage from '/images/bestguidimage.jpg'
+import informationimage from '/images/informationimage.png'
 
 
 const servicesData =[
