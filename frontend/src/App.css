@@ -82,14 +82,14 @@ ul {
   .primary__btn ,
   .secondary__btn ,
   .btn-dark{
-      padding: 0.2rem 1.1rem !important;
+      padding: 0.2rem 0.4rem ;
   }
   section{
-      padding: 40px 0;
+    padding: 40px 0;
   }
 }
 
-@media only screen and (max-width:992px){
+@media only screen and (max-width:576px){
   .section__subtitle{
     font-size: 1.3rem;
   }

@@ -70,8 +70,8 @@ const toggleMenu =()=>{
 
             {/*                 menu end                */}
 
-                    <div className="nav_right d-flex align-items-center gap-4">
-                        <div className="nav_btns d-flex align-items-center gap-4">
+                    <div className="nav_right d-flex align-items-center gap-2">
+                        <div className="nav_btns d-flex align-items-center gap-2">
                         {
                         user? ( <>
                             <h5 className="mb-0 usern">{user.username}</h5>

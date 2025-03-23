@@ -4,7 +4,7 @@
     line-height: 80px;
 }
 .logo img {
-width: 30%;
+width: 180px;
 }
 .menu {
     margin-bottom: 0;
@@ -22,7 +22,7 @@ font-size:1.1rem ;
     color: var(--secondary-color);
 }
 .mobile__menu{
-    font-size: 1.3rem;
+    font-size: 25px;
     color: var(--heading-color);
     display: none;
 }
@@ -39,26 +39,19 @@ font-size:1.1rem ;
 }
 .auth__btn1 {
     background: orange !important;
-    width: 100%;
+    width:70px;
     color: #fff !important;
     margin-left: 15rem;
 }
 .auth__btn2 {
     background:  orange !important;
-    width: 100%;
+    width: 100px;
     color: #fff !important;
     margin-left: 1rem;
     margin-right: 1rem;
 }
-.nav1{
-    margin-left: 8rem;
-}
 .usern{
     margin-left: 12rem;
-}
-.sitename{
-    color: orange;
-    padding-left: 0.5rem;
 }
 .logo a:hover{
     text-decoration: none;
@@ -69,7 +62,7 @@ font-size:1.1rem ;
 @media only screen and (max-width:992px){
 
     .logo img{
-        width: 20%;
+        width: 130px;
     }
     .logo a i{
         display: none;
@@ -99,15 +92,29 @@ font-size:1.1rem ;
     .show__menu{
         display: block;
     }
+    .auth__btn1{
+        margin-left: 10rem;
+    }
     .mobile__menu{
         display: block;
         line-height: 0.5rem;
+        margin-right: 5px;
     }
 }
 
 @media only screen and (max-width:768px){
     .menu {
         width: calc(100% - 50%);
+    }
+    .auth__btn1{
+        width: 50px;
+        margin-left: 5rem;
+    }
+    .auth__btn2{
+        width: 80px;
+    }
+    .usern{
+        margin-left: 5rem;
     }
     logo a i{
         z-index: 10000;
