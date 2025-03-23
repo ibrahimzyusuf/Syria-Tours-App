@@ -78,7 +78,7 @@ const toggleMenu =()=>{
                             <Button className="btn btn-dark ml-2 mr-2" onClick={logout}>Logout</Button>
                         </> ) : ( <>
                             <Button className="btn secondary__btn auth__btn1"><Link to='/login' className="text-white">login</Link></Button>
-                            <Button className="btn primary__btn auth__btn2"><Link to='/register' className="text-white">Register</Link></Button>
+                            <Button className="btn secondary__btn auth__btn2"><Link to='/register' className="text-white">Register</Link></Button>
                             </>
                             )}
                         </div>
