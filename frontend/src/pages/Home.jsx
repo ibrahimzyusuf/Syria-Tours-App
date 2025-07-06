@@ -3,7 +3,7 @@ import '../styles/home.css'
 import { Container, Row, Col } from 'reactstrap';
 import aleppocitadel from "/images/aleppocitadel1.jpg"
 import palmyra from "/images/palmyra2.jpg"
-import flag from '/images/flag.png' 
+import flag from '/images/flag.webp' 
 import herovideo from '/images/hero_video.mp4'
 import experience from '/images/experience.png'
 import Subtitle from '../shared/Subtitle';
