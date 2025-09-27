@@ -4,7 +4,7 @@ import { Container, Row, Col,ListGroup } from 'reactstrap'
 import { useParams } from 'react-router-dom'
 import calculateAvgRating from '../utils/avgRating'
 import NewsLetter from '../shared/NewsLetter'
-import avatar from '/images/avatar.jfif'
+import avatar from '/images/avatar.webp'
 import Booking from '../components/Booking/Booking'
 import useFetch from './../hooks/useFetch'
 import {BASE_URL} from './../utils/config'
@@ -83,7 +83,7 @@ return (
         !loading && !error && 
         <Row>
         <Col lg="8">
-            <div className='tour__content mt-1'><img src={photo} alt="" />
+            <div className='tour__content mt-1'><img src={photo} alt="attraction_photo" loading='lazy' />
                 <div className='tour__info'><h2>{title}</h2>
                     <div className='d-flex align-items-center gap-5'>
                         <span className='tour__rating d-flex align-items-center gap-1'>
@@ -120,7 +120,7 @@ return (
                 {
                     reviewsList?.map(review=>(
                     <div className='review__item'>
-                        <img src={avatar} alt='' />
+                        <img src={avatar} alt='avatar' loading='lazy' />
                         <div className='w-100'>
                             <div className='d-flex align-items-center justify-content-between'>
                                 <div><h5>{review.username}</h5>

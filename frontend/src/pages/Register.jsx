@@ -2,8 +2,8 @@ import React, {useState,useContext} from 'react'
 import { Container,Row,Col,Form,FormGroup,Button } from 'reactstrap'
 import {Link,useNavigate} from 'react-router-dom'
 import '../styles/login.css'
-import Registera from '/images/registera.png'
-import userIcon from '/images/user.png'
+import Registera from '/images/registera.webp'
+import userIcon from '/images/user.webp'
 import {AuthContext} from '../Context/AuthContext' 
 import {BASE_URL} from './../utils/config'
 
@@ -47,12 +47,12 @@ Navigate('/login')
                 <Col lg="8" className='m-auto'>
                     <div className='login__container d-flex justify-content-between'>
                         <div className='login__img'>
-                            <img src={Registera} alt="" />
+                            <img src={Registera} alt="register_image" loading='lazy' />
                         </div>
         
                         <div className='login__form'>
                             <div className='user'>
-                                <img src={userIcon} alt="" />
+                                <img src={userIcon} alt="user-icon" loading='lazy' />
                             </div>
                             <h2>Register</h2>
                             <Form onSubmit={handleClick}>

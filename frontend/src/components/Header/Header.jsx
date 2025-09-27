@@ -1,7 +1,7 @@
 import React,{useRef, useEffect,useContext} from "react";
 import { Container,Row,Button} from 'reactstrap'
 import {NavLink, Link,useNavigate} from 'react-router-dom'
-import logo from '/images/logo.png'
+import logo from '/images/logo.webp'
 import './header.css'
 import {AuthContext} from '../../Context/AuthContext'
 
@@ -55,8 +55,7 @@ const toggleMenu =()=>{
             <Row>
                 <div className="nav__wrapper d-flex align-items-center justify-content-between">
                     <div className="logo">
-                        <img src={logo} alt="" />
-                        {/* <a href="/"><i className="sitename"><b>Syria Tour Guide</b></i> </a> */}
+                        <img src={logo} alt="app_logo" />
                     </div>
                     <div className="navigation" ref={menuRef} onClick={toggleMenu}>
                         <ul className="menu d-flex align-items-center gap-5">

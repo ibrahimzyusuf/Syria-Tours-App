@@ -2,7 +2,7 @@ import React from 'react'
 import './footer.css'
 import { Container, Row , Col , ListGroupItem, ListGroup } from 'reactstrap'
 import {Link} from 'react-router-dom'
-import logo from '/images/logo.png'
+import logo from '/images/logo.webp'
 
 const quick_links=[
     {
@@ -40,7 +40,7 @@ const year = new Date().getFullYear()
                 <Row>
                     <Col lg='3'>
                         <div className='logo'>
-                            <img src={logo} alt="" />
+                            <img src={logo} alt="app_logo" loading='lazy' />
                             <p className='mt-4'>
                                 <i>Social media</i>
                             </p>

@@ -1,7 +1,7 @@
 import React from 'react'
 import './newsLetter.css'
 import { Container, Row , Col } from 'reactstrap'
-import aleepoman from '/images/aleepoman.jpg'
+import aleepoman from '/images/aleepoman.webp'
 
 const NewsLetter = () => {
     return (
@@ -20,7 +20,7 @@ const NewsLetter = () => {
                 </Col>
                 <Col lg="6">
                     <div className='newsletter__img'>
-                        <img src={aleepoman} alt='' />
+                        <img src={aleepoman} alt='aleppo-man-image' loading='lazy' />
                     </div>
                 </Col>
             </Row>

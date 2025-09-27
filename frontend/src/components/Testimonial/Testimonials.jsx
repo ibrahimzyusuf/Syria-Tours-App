@@ -1,10 +1,10 @@
 import React from "react";
 import Slider from "react-slick";
 import './testimonials.css'
-import p1 from '/images/p1.jpg'
-import p2 from '/images/p2.jpg'
-import p3 from '/images/p3.jpg'
-import p4 from '/images/girl.jpg'
+import p1 from '/images/p1.webp'
+import p2 from '/images/p2.webp'
+import p3 from '/images/p3.webp'
+import p4 from '/images/girl.webp'
 
 const Testimonials = () => {
 
@@ -47,7 +47,7 @@ const Testimonials = () => {
                     really it is great site
                 </p>
                 <div className='d-flex align-items-center gap-4 mt-3'>
-                    <img src={p2} className='ph' alt='' />
+                    <img src={p2} className='ph' alt='testimonial_image' loading="lazy" />
                     <div>
                         <h6 className='mb-0 mt-3'>Mark</h6>
                         <p>customer</p>
@@ -62,7 +62,7 @@ const Testimonials = () => {
                     the feuture.
                 </p>
                 <div className='d-flex align-items-center gap-4 mt-3'>
-                    <img src={p1} className='ph' alt='' />
+                    <img src={p1} className='ph' alt='testimonial_image' loading="lazy" />
                     <div>
                         <h6 className='mb-0 mt-3'>lia</h6>
                         <p>customer</p>
@@ -77,7 +77,7 @@ const Testimonials = () => {
                     and Mari and special thanks to the development team
                 </p>
                 <div className='d-flex align-items-center gap-4 mt-3'>
-                    <img src={p3} className='ph' alt='' />
+                    <img src={p3} className='ph' alt='testimonial_image' loading="lazy" />
                     <div>
                         <h6 className='mb-0 mt-3'>angi</h6>
                         <p>customer</p>
@@ -91,7 +91,7 @@ const Testimonials = () => {
                     I like syria really and its friendly people 
                 </p>
                 <div className='d-flex align-items-center gap-4 mt-3'>
-                    <img src={p4} className='ph' alt='' />
+                    <img src={p4} className='ph' alt='testimonial_image' loading="lazy" />
                     <div>
                         <h6 className='mb-0 mt-3'>monika</h6>
                         <p>customer</p>

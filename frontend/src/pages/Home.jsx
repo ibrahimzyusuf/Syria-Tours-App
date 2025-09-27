@@ -1,11 +1,11 @@
 import React,{useEffect} from 'react';
 import '../styles/home.css'
 import { Container, Row, Col } from 'reactstrap';
-import aleppocitadel from "/images/aleppocitadel1.jpg"
-import palmyra from "/images/palmyra2.jpg"
+import aleppocitadel from "/images/aleppocitadel1.webp"
+import palmyra from "/images/palmyra2.webp"
 import flag from '/images/flag.webp' 
 import herovideo from '/images/hero_video.mp4'
-import experience from '/images/experience.png'
+import experience from '/images/experience.webp'
 import Subtitle from '../shared/Subtitle';
 import Counters from '../components/Counters/Counters'
 import SearchBar from '../shared/SearchBar';
@@ -31,7 +31,7 @@ const Home=()=> {
                         <div className="hero__content">
                             <div className="hero__subtitle d-flex align-items-center gap-2">
                             <Subtitle subtitle={'Know Before You Go'} />
-                            <img src={flag} alt="" />
+                            <img src={flag} alt="flag" />
                         </div>
                         <h1>Welcome To{" "}
                         <span className="highlight">Syria</span></h1>
@@ -43,17 +43,17 @@ const Home=()=> {
 
                     <Col lg='2'>
                         <div className='hero__img-box'>
-                        <img src={aleppocitadel} alt='' />
+                        <img src={aleppocitadel} alt='aleppo_citadel' />
                         </div>
                     </Col>
                     <Col lg='2'>
                         <div className='hero__img-box hero__video-box mt-4 '>
-                        <video src={herovideo} controls alt='' />
+                        <video src={herovideo} controls alt='hero_vedio' />
                         </div>
                     </Col>
                     <Col lg='2'>
                         <div className='hero__img-box mt-5'>
-                            <img src={palmyra} alt='' />
+                            <img src={palmyra} alt='palmyra' />
                         </div>
                     </Col>
                     <SearchBar /> 
@@ -102,7 +102,7 @@ const Home=()=> {
                     </Col>
                     <Col lg="6">
                         <div className="experience__img ml-5">
-                            <img src={experience} alt='' />
+                            <img src={experience} alt='promoting_image' loading='lazy' />
                         </div>
                     </Col>
                 </Row>

@@ -3,8 +3,8 @@ import React, { useState, useContext } from 'react'
 import { Container, Row, Col, Form, FormGroup, Button } from 'reactstrap'
 import { Link , useNavigate } from 'react-router-dom'
 import '../styles/login.css'
-import loginImg from '/images/lo.png'
-import userIcon from '/images/user.png'
+import loginImg from '/images/lo.webp'
+import userIcon from '/images/user.webp'
 import { AuthContext } from '../Context/AuthContext'
 import { BASE_URL } from './../utils/config'
 
@@ -55,12 +55,12 @@ const Login = () => {
                     <Col lg="8" className='m-auto'>
                         <div className='login__container d-flex justify-content-between'>
                             <div className='login__img'>
-                                <img src={loginImg} alt="" />
+                                <img src={loginImg} alt="login_image" loading='lazy' />
                             </div>
 
                             <div className='login__form'>
                                 <div className='user'>
-                                    <img src={userIcon} alt="" />
+                                    <img src={userIcon} alt="user_icon" loading='lazy' />
                                 </div>
                                 <h2>Login</h2>
                                     <Form onSubmit={handleClick}>

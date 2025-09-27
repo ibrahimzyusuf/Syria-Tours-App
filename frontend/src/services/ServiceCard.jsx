@@ -5,7 +5,7 @@ const ServiceCard = ({item}) => {
     const{ imgUrl, title, desc } = item
     return <>
         <div className='service__item'>
-            <div className='service__img'><img src={imgUrl} alt="" /></div>
+            <div className='service__img'><img src={imgUrl} alt="service-image" loading='lazy' /></div>
             <a className="guidlink"><h5>{title}</h5></a>
             <p>{desc}</p>
         </div>
